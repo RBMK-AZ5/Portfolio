@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Seifeddine Hassen</title>
+
+    <link rel="icon" type="image/png" href="IMAGES/sailogo.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Boxicons for icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Animate.css for extra animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Typed.js for animated text -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="JAVASCRIPT/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header with Navigation and Language Toggle -->
+    <header class="header animate__animated animate__fadeInDown">
+      <div class="container header-container">
+        <a href="#" class="logo">
+          <i class="bx bx-shield"></i> Portfolio
+        </a>
+        <nav class="navbar">
+          <a href="#accueil" class="nav-link" data-key="nav_home">Accueil</a>
+          <a href="#apropos" class="nav-link" data-key="nav_about">À Propos</a>
+          <a href="#projets" class="nav-link" data-key="nav_projects">Projets</a>
+          <a href="#competences" class="nav-link" data-key="nav_skills">Compétences</a>
+          <a href="#experiences" class="nav-link" data-key="nav_experience">Expériences</a>
+          <a href="#formation" class="nav-link" data-key="nav_education">Formation</a>
+          <a href="#contact" class="nav-link" data-key="nav_contact">Contact</a>
+        </nav>
+        <!-- Language Toggle Button -->
+        <button id="lang-toggle" class="lang-toggle">EN</button>
+      </div>
+    </header>
+
+    <!-- Accueil Section -->
+    <section id="accueil" class="section accueil">
+      <div class="container accueil-container animate__animated animate__fadeIn">
+        <div class="accueil-content">
+          <h1 class="animate__animated animate__zoomIn" data-key="header_name">
+            Seifeddine Hassen
+          </h1>
+          <h2 class="animate__animated animate__fadeInUp" data-key="header_title">
+            Ingénieur Cybersécurité
+          </h2>
+          <h3 class="typed-title">
+            <span class="typed-text"></span>
+          </h3>
+          <p class="description animate__animated animate__fadeInUp" data-key="header_desc">
+            Passion. Rigueur. Innovation.
+          </p>
+        </div>
+        <div class="accueil-image">
+          <img src="IMAGES/saianon.png" alt="Portrait de Seifeddine Hassen" />
+        </div>
+      </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="apropos" class="section apropos animate__animated animate__fadeInLeft">
+      <div class="container">
+        <h2 data-key="about_title">À Propos</h2>
+        <p data-key="about_text">
+          Cybersécurité. Analyse. Protection. Je mets en œuvre des solutions de
+          pointe pour sécuriser l'information.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="section projets animate__animated animate__fadeInUp">
+      <div class="container">
+        <h2 data-key="projects_title">Mes Projets</h2>
+        <div class="project-list">
+          <div
+            class="project-item animate__animated animate__lightSpeedInLeft"
+            data-title-fr="Projet Alpha"
+            data-detail-fr="Scan vulnérabilités conforme par l'ANSSI. Utilisation d’algorithmes avancés et d’outils innovants pour vérifier la sécurité du système."
+            data-title-en="Project Alpha"
+            data-detail-en="Vulnerability scan compliant with ANSSI standards. Uses advanced algorithms and innovative tools to check system security."
+          >
+            <h3>Projet Alpha</h3>
+            <p data-key="project_alpha_desc">Scan vulnérabilités conforme ANSSI.</p>
+          </div>
+          <div
+            class="project-item animate__animated animate__lightSpeedInRight animate__delay-1s"
+            data-title-fr="Projet Beta"
+            data-detail-fr="Automatisation des règles de pare-feu. Scripts optimisés pour normaliser et sécuriser le réseau."
+            data-title-en="Project Beta"
+            data-detail-en="Firewall rule automation. Optimized scripts to standardize and secure the network."
+          >
+            <h3>Projet Beta</h3>
+            <p data-key="project_beta_desc">Automatisation des règles de pare-feu.</p>
+          </div>
+          <div
+            class="project-item animate__animated animate__lightSpeedInLeft animate__delay-2s"
+            data-title-fr="Projet Gamma"
+            data-detail-fr="Implémentation d’un SIEM pour la conformité ISO 27001. Supervision et détection proactive des intrusions."
+            data-title-en="Project Gamma"
+            data-detail-en="Implementation of a SIEM for ISO 27001 compliance. Proactive monitoring and intrusion detection."
+          >
+            <h3>Projet Gamma</h3>
+            <p data-key="project_gamma_desc">Implémentation d’un SIEM ISO 27001.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="section competences animate__animated animate__zoomIn">
+      <div class="container">
+        <h2 data-key="skills_title">Compétences</h2>
+        <ul>
+          <li><strong>OS :</strong> Windows, Linux (Debian, Ubuntu)</li>
+          <li><strong>Langages :</strong> C/C++, Python, PowerShell</li>
+          <li><strong>Réseau :</strong> Pare-feu (Cisco, Fortinet, Pfsense)</li>
+          <li><strong>Sécurité :</strong> CrowdStrike, Splunk, PRTG, Nessus</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Expériences Section -->
+    <section id="experiences" class="section experiences animate__animated animate__fadeInUp">
+      <div class="container">
+        <h2 data-key="experience_title">Expériences</h2>
+        <ul>
+          <li class="animate__animated animate__fadeInUp">
+            <h3>
+              Alternant Cybersécurité
+              <small data-key="exp_ge_vernova">General Electric VERNOVA</small>
+            </h3>
+            <span class="date">Oct. 2022 - Oct. 2025</span>
+            <p data-key="exp_ge_desc">
+              Scan vulnérabilités. Supervision réseau. Automatisation des déploiements.
+            </p>
+          </li>
+          <li class="animate__animated animate__fadeInUp animate__delay-1s">
+            <h3>
+              Stage Cybersécurité
+              <small data-key="exp_ge_digital">General Electric DIGITAL</small>
+            </h3>
+            <span class="date">Mars 2021 - Mai 2021</span>
+            <p data-key="exp_ge_stage">Automatisation des règles de pare-feu.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Formation Section -->
+    <section id="formation" class="section formation animate__animated animate__fadeInLeft">
+      <div class="container">
+        <h2 data-key="education_title">Formation</h2>
+        <ul>
+          <li class="animate__animated animate__fadeInLeft">
+            <h3>
+              Expert Cybersécurité
+              <small data-key="edu_ynov">YNOV PARIS</small>
+            </h3>
+            <span class="date">Oct. 2022 - Oct. 2025</span>
+          </li>
+          <li class="animate__animated animate__fadeInLeft animate__delay-1s">
+            <h3>
+              BTS Systèmes numériques
+              <small data-key="edu_cned">CNED</small>
+            </h3>
+            <span class="date">Sept. 2020 - Juill. 2022</span>
+          </li>
+          <li class="animate__animated animate__fadeInLeft animate__delay-2s">
+            <h3>
+              Bac Scientifique
+              <small data-key="edu_mistral">Lycée Mistral</small>
+            </h3>
+            <span class="date">Sept. 2018 - Juill. 2019</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact animate__animated animate__jackInTheBox">
+      <div class="container">
+        <h2 data-key="contact_title">Contact</h2>
+        <ul>
+          <li><strong data-key="contact_name_label">Nom :</strong> Seifeddine Hassen</li>
+          <li>
+            <strong data-key="contact_email_label">Email :</strong>
+            <a href="mailto:seifeddine.h@hotmail.fr">seifeddine.h@hotmail.fr</a>
+          </li>
+          <li>
+            <strong data-key="contact_location_label">Localisation :</strong> Ile-de-France
+          </li>
+          <li><strong data-key="contact_language_label">Langues :</strong> Anglais (B1)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div id="modal" class="modal">
+      <div class="modal-content animate__animated">
+        <span class="close">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-details"></p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer animate__animated animate__fadeInUp">
+      <div class="container">
+        <p>&copy; 2025 Seifeddine Hassen. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
